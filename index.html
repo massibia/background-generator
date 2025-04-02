@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>MY WEBSITE</title>
+  <link rel="stylesheet" type="text/css" href="static/style.css">
+  <link rel="shortcut icon" href="{{ url_for('static', filename='favicon.ico') }}">
+</head>
+<body>
+  I AM A WEB MASTER
+  {{ 5 + 5 }}
+  {{ name }}
+  {{ post_id }}
+  <script src="static/script.js"></script>
+</body>
+</html>
+
+<!-- FLASK e DJANGO framework   -->
+<!-- $ puthon3 -m venv venv oppure > py -m venv -venv all'interno della cartella di lavoro crea una cartella venv
+    se invece non vogliamo la cartella venv possiamo crearlo così > py -m venv "web server"
+    per Windows è $ py -3 -m venv venv
+    per python 2 è $ python2 -m virtualenv venv im Windows è > \Python27\Scripts\virtualenv.exe venv
+
+    ACTIVATE
+    $ . venv/bin/activate in Windows > venv\Scripts\activate -->
